@@ -11,9 +11,15 @@
 }
 .right{
     display: flex;
+    
+    align-items: center;
 }
 .right a{
     margin-right: 10px;
     text-decoration: none;
     cursor: pointer;
+}
+input[type=button]{
+    padding: 10px;
+    min-width: 100px;
 }
