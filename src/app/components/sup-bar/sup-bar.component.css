@@ -1,0 +1,19 @@
+.supbar{
+    background: skyblue;
+    min-height:50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+}
+.left img{
+  width: 15%;
+    
+}
+.right{
+    display: flex;
+}
+.right a{
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
