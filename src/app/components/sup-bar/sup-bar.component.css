@@ -4,22 +4,47 @@
     display: flex;
     justify-content: space-evenly;
     align-items:center ;
+    width: 100%;
 }
 .left img{
-  width: 15%;
+  width: 20%;
+  cursor: pointer;
     
 }
 .right{
-    display: flex;
-    
-    align-items: center;
-}
-.right a{
-    margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   }
+.right i{
+    margin-right: 20px;
     text-decoration: none;
     cursor: pointer;
+    color:whitesmoke;
+    font-size: 30px;
+    
+    
 }
+
+
 input[type=button]{
     padding: 10px;
+    font-size: medium;
+    font-weight: 600;
     min-width: 100px;
+    min-height: 50px;
+    background: none;
+    border: whitesmoke 3px solid;
+    border-radius: 8%;
+    color: whitesmoke;
+    margin: 0 20px;
+    cursor:pointer;
+    transition-duration: 0.5s;
+    
+}
+input[type=button]:hover{
+    background: whitesmoke;
+    box-shadow: 1px 1px gray;
+    color: skyblue;
+   
 }
