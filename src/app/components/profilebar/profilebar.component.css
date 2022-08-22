@@ -1,0 +1,18 @@
+.profilebar{
+    width: 100%;
+   
+    background-image: url(../../../assets/images/profilebar.jpg);
+    background-repeat: no-repeat;
+    min-height: 20vw;
+    background-position:center;
+    background-size: cover;
+    
+    
+}
+.profilepic{
+    width: 40%;
+    position: relative;
+    bottom: 50px;
+    border-radius: 50%;
+    border: solid whitesmoke 30px;
+}
