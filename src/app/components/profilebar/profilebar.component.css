@@ -1,18 +1,30 @@
 .profilebar{
     width: 100%;
-   
     background-image: url(../../../assets/images/profilebar.jpg);
     background-repeat: no-repeat;
-    min-height: 20vw;
     background-position:center;
     background-size: cover;
+    border-bottom: 20px solid skyblue;
+   
     
     
 }
 .profilepic{
-    width: 40%;
+    width: 20%;
+    display: flex;
     position: relative;
-    bottom: 50px;
+    margin-left: 2%;
+    justify-content: center;
     border-radius: 50%;
-    border: solid whitesmoke 30px;
+    border: 20px solid skyblue;
+    max-height: 250px;
+    overflow: hidden;
+    bottom: -125px;
+   
+}
+.profilepic img{
+position: relative;
+width: 100%;
+height: 100%;
+top: -50px;
 }
