@@ -1,17 +1,21 @@
 .profilebar{
     width: 100%;
-    overflow: hidden; 
-    border-top:solid white 20px ;
+    display: flex;
+    justify-content: center;
+    
    
 }
 .profilepic{
-    max-height: 360px;
-   
-}
+   border-radius: 100%;
+   width: 80%;
+   height: 300px;
+   overflow: hidden;
+   position: relative;
+   top: -130px;
+   border: solid 20px white;
+  }
 
 .profilepic img{
     position: relative;
     width: 100%;
-    top: -60px;
-    
- }
+   }
