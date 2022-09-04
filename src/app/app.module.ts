@@ -4,14 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SupBarComponent } from './components/sup-bar/sup-bar.component';
-import { ProfilebarComponent } from './components/profilebar/profilebar.component';
+import { AboutComponent } from './components/about/about.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SupBarComponent,
-    ProfilebarComponent
+    AboutComponent
   ],
   imports: [
     BrowserModule
