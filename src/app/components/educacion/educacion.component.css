@@ -6,13 +6,15 @@
 .cards--educacion{
     grid-column: 2/12;
     display: flex;
+    flex-direction: column;
     margin-top: 5%;
     flex-wrap: wrap;
    
 }
 .card--educacion{
     display: flex;
-    width: 45%;
+     flex-direction: column;
+    width: 100%;
     align-items: center;
 background: #FFFCF4;
     margin: 2%;
@@ -32,4 +34,18 @@ background: #FFFCF4;
 }
 .card--body{
     text-align: justify;
+}
+
+/*Tablets y demas*/
+@media (min-width:768px){
+    .cards--educacion{
+        flex-direction: row;
+    }
+    .card--educacion{
+        flex-direction: row;
+        width: 45%;
+        
+        
+    }
+
 }
