@@ -6,6 +6,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { SupBarComponent } from './components/sup-bar/sup-bar.component';
 import { AboutComponent } from './components/about/about.component';
 import { LaboralComponent } from './components/laboral/laboral.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
+
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { LaboralComponent } from './components/laboral/laboral.component';
     HeaderComponent,
     SupBarComponent,
     AboutComponent,
-    LaboralComponent
+    LaboralComponent,
+    EducacionComponent
+    
   ],
   imports: [
     BrowserModule

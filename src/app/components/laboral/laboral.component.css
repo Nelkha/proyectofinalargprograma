@@ -8,40 +8,7 @@
     grid-column: 2/12;
     margin-top: 5%;
 }
-.separador{
-    grid-column: -1/8;
-    
-    
-    }
-.separador div{
-   width: 100%;
-   display: flex;
-  border-bottom:#126FA0 solid 5px;
-  justify-content: space-between;
-  align-items: center;
 
-    
-}
-.separador div h2{
-    color: gray;
-    opacity: 0.8;
-    
- }
- .separador div i{
-    color: gray;
-    opacity: 0.8;
-    font-size: 1.3em;
-    margin-right: 50%;
-    cursor: pointer;
-    transition: ease 0.5s;
-    
- }
- .separador div i:hover{
-    color: green;
-    
-    
-    
- }
 
 
 
