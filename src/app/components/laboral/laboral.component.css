@@ -1,0 +1,58 @@
+#laboral{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+   
+    
+}
+.cards{
+    grid-column: 2/12;
+    margin-top: 5%;
+}
+.separador{
+    grid-column: -1/8;
+    
+    
+    }
+.separador div{
+   width: 100%;
+   display: flex;
+  border-bottom:#126FA0 solid 5px;
+  justify-content: space-between;
+  align-items: center;
+
+    
+}
+.separador div h2{
+    color: gray;
+    opacity: 0.5;
+    
+ }
+ .separador div i{
+    color: gray;
+    opacity: 0.5;
+    font-size: 1.3em;
+    margin-right: 50%;
+    cursor: pointer;
+    transition: ease 0.5s;
+    
+ }
+ .separador div i:hover{
+    color: green;
+    
+    
+    
+ }
+
+
+
+.card{
+    margin-bottom: 5%;
+    padding-left: 1%;
+    text-align: justify;
+    background: white;
+    border-left: 15px #126FA0 solid;
+    transition: ease 0.3s;
+}
+.card:hover{
+    border-left: 15px #f1c232 solid;
+}
