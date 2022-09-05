@@ -129,3 +129,10 @@ input[type=button]{
             color: #0E5880;
         }    
 }
+@media(min-width:1600px){
+    .supbar{
+        
+        min-height: 280px;
+            
+        }
+}

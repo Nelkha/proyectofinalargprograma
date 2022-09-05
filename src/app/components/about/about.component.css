@@ -98,7 +98,11 @@
         text-align: justify;
         letter-spacing: 1px;
        }
-       
-      
-
+    }
+    /*Monitores grandes y TV*/
+    @media(min-width:1600px){
+        .about--imgcontainer{
+            top: -120px;
+            height: 330px;
+        }
     }

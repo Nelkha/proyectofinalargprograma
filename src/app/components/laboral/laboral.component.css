@@ -24,12 +24,12 @@
 }
 .separador div h2{
     color: gray;
-    opacity: 0.5;
+    opacity: 0.8;
     
  }
  .separador div i{
     color: gray;
-    opacity: 0.5;
+    opacity: 0.8;
     font-size: 1.3em;
     margin-right: 50%;
     cursor: pointer;
