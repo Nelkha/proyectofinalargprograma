@@ -3,8 +3,10 @@
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: 120px repeat(11,1fr);
+    padding-top: 1%;
    
 }
+
 .about p::first-letter{
         color:#f1c232;
         font-weight: bold;
