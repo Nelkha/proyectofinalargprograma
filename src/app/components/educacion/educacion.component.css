@@ -1,7 +1,7 @@
 #educacion{
     display: grid;
     grid-template-columns: repeat(12,1fr);
-   
+   margin-bottom: 5%;
 }
 .cards--educacion{
     grid-column: 2/12;
@@ -44,8 +44,6 @@ background: #FFFCF4;
     .card--educacion{
         flex-direction: row;
         width: 45%;
-        
-        
-    }
+  }
 
 }
