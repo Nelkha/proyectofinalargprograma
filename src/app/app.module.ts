@@ -8,6 +8,8 @@ import { AboutComponent } from './components/about/about.component';
 import { LaboralComponent } from './components/laboral/laboral.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { HaskComponent } from './components/hask/hask.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
 
 
 
@@ -19,7 +21,9 @@ import { HaskComponent } from './components/hask/hask.component';
     AboutComponent,
     LaboralComponent,
     EducacionComponent,
-    HaskComponent
+    HaskComponent,
+    FooterComponent,
+    ProyectosComponent
     
   ],
   imports: [

@@ -1,0 +1,13 @@
+footer{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    background: #126FA0;
+    min-height: 50px;
+    align-items: center;
+  
+}
+footer p{
+    grid-column: 2/12;
+    color: white;
+    text-align: center;
+}

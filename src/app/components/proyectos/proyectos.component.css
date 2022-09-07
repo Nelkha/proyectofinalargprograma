@@ -1,0 +1,30 @@
+#proyectos{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    margin-bottom: 5%;
+}
+.proy-col{
+    display: none;
+}
+
+
+@media(min-width:768px){
+    .proy-col{
+        grid-column: 1/2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #126FA0;
+        display: block;
+        
+    }
+    .proy-col h2{
+        font-size: 11em;
+        color: white;
+    }
+    .separador{
+        display: none;
+     }
+ 
+}

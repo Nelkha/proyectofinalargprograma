@@ -1,6 +1,7 @@
 #hask{
     display: grid;
     grid-template-columns: repeat(12,1fr);
+    margin-bottom: 5%;
 }
 .skills{
     grid-column: 2/12;
@@ -10,6 +11,9 @@
     justify-content: center;
     align-items: center;
 }
+.esp-h{
+    display: none;
+}
 
 /*Tablets y demas*/
 @media (min-width:768px){
@@ -17,12 +21,33 @@
         
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: flex-start;
+        justify-content: center;
       }
     .skill{
         text-align: center;
         width: 33%;
         margin-bottom: 5%;
     }
+    .hask-col{
+        grid-column: 1/2;
+        display: flex;
+        justify-content: center;
+        
+        
+        
+    }
+    .esp-h{
+     font-size: 11em;
+     color: #323232;
+     text-align: center;
+     writing-mode: vertical-lr;
+     transform: rotate(180deg);
+     text-decoration: underline;
+     text-decoration-color: #126FA0;
+     display: block;
+     }
+     .separador{
+        display: none;
+     }
  
 }
