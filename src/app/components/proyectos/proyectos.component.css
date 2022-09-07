@@ -6,7 +6,25 @@
 .proy-col{
     display: none;
 }
-
+.proyectos{
+    grid-column: 2/12;
+    display: flex;
+    flex-direction: column;
+}
+.proyecto{
+    grid-column: 2/12;
+    margin-bottom: 5%;
+}
+.proyecto-img{
+border-bottom-left-radius: 5%;
+border-bottom-right-radius: 5%;
+overflow: hidden;
+margin-bottom: 2%;
+}
+.proyecto-img img{
+    width: 100%;
+    height: 100%;
+}
 
 @media(min-width:768px){
     .proy-col{
@@ -16,15 +34,27 @@
         justify-content: center;
         align-items: center;
         background: #126FA0;
-        display: block;
+        display: flex;
         
     }
     .proy-col h2{
         font-size: 11em;
         color: white;
+        
     }
     .separador{
         display: none;
+     }
+     .proyectos{
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+     }
+     .proyecto{
+        width: 28%;
+        margin: 0 2.5% 5% 2.5%;
      }
  
 }
